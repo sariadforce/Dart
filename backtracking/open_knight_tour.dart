@@ -57,7 +57,7 @@ bool openKnightTourHelper(List<List<int>> board, List<int> pos, int curr) {
   }
   return false;
 }
-
+  List<int> passengerTimelineCount = List.filled(1001, 0);
 List<List<int>> openKnightTour(int n) {
   // board creation
   final List<List<int>> board = [];
